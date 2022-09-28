@@ -26,8 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We have made a variable called name and assigned it the value of the string 'Dane'. 
+// Then we have a conditional that checks if name is equal to (in the literal sense) the string 'Mary'.
+// If name is equal to 'Mary' the console will log, 'Hi, Mary!' If they are not equal, the console will log,
+// 'How do you do?' Since the value assigned to the name variable != 'Mary', the console will
+// log 'How do you do?' 
 // 
 //
 
@@ -45,10 +48,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We have a variable declared (secret) but not yet assigned a value, and another variable (code) assigned a 
+// value of the number 123. Then we have an if statement checking if code is literally equal to 123, and then
+// assigning a string value 'super' to the variable secret, as well as a function multiplying the value of code times 2.
+// Then we have another if statement checking if the new value of code is greater than 250, and if it is,
+// the console will log the variable secret which would be 'duper' if true. Since the value of code is never more than 250
+//(first 123, then 246), the console will log the string 'super'.
 
 //CODE
 /*
