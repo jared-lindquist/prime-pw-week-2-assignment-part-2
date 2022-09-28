@@ -182,4 +182,17 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+//FIX: Our if statement is incorrect and out of order. As written, we are checking if minAge <= age, 
+//where we should be checking if age >= minAge. The code should look like this:
+
+/*
+let age = 21;
+const minAge = 21;
+
+if(age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
+*/
 
