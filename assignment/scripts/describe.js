@@ -145,6 +145,10 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+//FIX: The above outlines that colorOne AND colorTwo should be set to 'purple', but our code only sets colorOne.
+// Inside the curly braces, after the colorOne = 'purple'; we need to add a line colorTwo = 'purple';
+
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
