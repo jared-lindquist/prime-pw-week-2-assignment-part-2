@@ -75,10 +75,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We have an 'if, else if, else' statement with compund conditionals. First checking if isStudent is true AND if zip is greater than 80000.
+// If both are true, the console will log 'You're a student on the West Coast!' Then checking if isStudent is false OR
+// age is less than 30. If either condition is true the console will log 'What are your hobbies?'. Then checking if
+// isStudent is true. If true the console will log 'Welcome to Prime!' Then an else statement. If none of the above conditionals is true,
+// the console will log 'How about the weather?' Since the first truthy conditional is 'isStudent === true' the console
+// will log 'Welcome to Prime!'
 
 //CODE
 /*
