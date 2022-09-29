@@ -146,9 +146,16 @@ if (mix === true) {
 }
 */
 //FIX: The above outlines that colorOne AND colorTwo should be set to 'purple', but our code only sets colorOne.
-// Inside the curly braces, after the colorOne = 'purple'; we need to add a line colorTwo = 'purple';
+// Inside the curly braces, after the colorOne = 'purple'; we need to add a line colorTwo = 'purple'; OR we could re-assign
+// both colorOne and colorTwo like this:
 
-
+/*
+if (mix === true) {
+[colorOne, colorTwo] = ['purple', 'purple'];
+}
+console.log(colorOne);
+console.log(colorTwo);
+*/
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
